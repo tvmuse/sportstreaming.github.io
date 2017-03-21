@@ -1,0 +1,54 @@
+/**************************************************************************************************/
+/*
+/*		File:
+/*			styles.css
+/*		Description:
+/*			This file contains CSS for the front-end aspects of the plugin.
+/*		Date:
+/*			Added on November 3rd 2010
+/*		Copyright:
+/*			Copyright (c) 2009 Matthew Praetzel.
+/*		License:
+/*			License:
+/*			This software is licensed under the terms of the GNU General Public License v3
+/*			as published by the Free Software Foundation. You should have received a copy of of
+/*			the GNU General Public License along with this software. In the event that you
+/*			have not, please visit: http://www.gnu.org/licenses/gpl-3.0.txt
+/*
+/**************************************************************************************************/
+
+/*-----------------------
+	Meta
+-----------------------*/
+div.tern_wp_youtube_video_meta_data { width:100%;text-align:right; }
+div.tern_wp_youtube_video_meta { display:inline-block;width:222px;background:#f0f0f0;border:1px dotted #ccc;margin:20px 0 20px 20px;padding:10px; }
+div.tern_wp_youtube_video_meta a, div.tern_wp_youtube_video_meta span { display:block;text-align:right;padding-right:20px; }
+div.tern_wp_youtube_video_meta span { font-size:10px; }
+div.tern_wp_youtube_video_meta label { display:inline-block;width:50px;margin-top:10px;text-align:right;line-height:16px;font-size:11px;color:#666; }
+div.tern_wp_youtube_video_meta input { display:inline-block;width:146px;margin-left:3px;font-size:10px;color:#666;line-height:16px; }
+/*-----------------------
+	Pagination
+-----------------------*/
+ul.tern_pagination, ul.tern_pagination li { float:none;border:0;margin:0px;padding:0px;list-style:none; }
+ul.tern_pagination { width:100%;margin:20px 0; }
+ul.tern_pagination li { display:inline-block; }
+ul.tern_pagination a { display:inline-block;background:#fff;border:1px solid #999;padding:0 4px;margin-right:2px;line-height:22px;color:#999;text-decoration:none; }
+li.tern_pagination_current a { color:#122336;border:1px solid #122336; }
+/*-----------------------
+	Posts
+-----------------------*/
+.tern_wp_post_list, .tern_wp_post_list li { width:100%;margin:0;padding:0;list-style:none; }
+.tern_wp_post_list li.tern_wp_post { clear:both;margin-top:40px;padding:0; }
+.tern_wp_post_head { width:100%;line-height:10px;border-bottom:1px solid #ccc;padding-bottom:6px; }
+.tern_wp_post h3 { display:inline-block;margin:0 0 1px 0;padding:0;line-height:24px;font-size:24px;font-weight:normal; }
+.tern_wp_post h3 a { color:#333;text-decoration:none; }
+.tern_wp_post h3 a:hover { color:#0000ff;text-decoration:underline; }
+.tern_wp_post small { float:right; }
+.tern_wp_post span { font-family:Georgia;font-size:24px; }
+.tern_wp_post_entry { padding-top:12px; }
+.tern_wp_post_entry a { font-size:14px; }
+.tern_wp_post_image { float:left;margin:0 20px 20px 0; }
+.tern_wp_post img { padding:4px; }
+.tern_wp_post p { display:block;margin:8px 0 0 0;text-align:justify; }
+object { margin-top:10px; }
+.tern_wp_post_footer { clear:both;border-top:1px dotted #ccc;margin-top:20px;padding:6px 10px 6px 0;text-align:right;font-size:10px;font-style:italic; }

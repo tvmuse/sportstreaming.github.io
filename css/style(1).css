@@ -1,0 +1,30 @@
+/*
+Theme Name: Beetube
+Theme URI: http://themeforest.net/user/JoinWebs
+Description: A Professional Video/News/Magazine Wordpress Theme.
+Author: Joinwebs
+Author URI: http://themeforest.net/user/JoinWebs
+Version: 2.3
+License: GNU General Public License version 3.0
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Tags: theme-options
+*/
+
+/*= Table of Content
+ * 
+ *= Reset,Base and Common 
+ *= Structure 
+ *= Header 
+ *= Main Navigation 
+ *= General Content Style
+ *= Archive Content Style
+ *= Featured Content Style
+ *= Singular Content Style
+ *= Widgets (Sidebar & Footbar) 
+ *= Footer (Footbar & Colophon) 
+ *= Comments & Response
+ *= Plugins Style
+ *= Browser Specific 
+ *==================================================================*/
+@import 'css/dashboard.html';
+
